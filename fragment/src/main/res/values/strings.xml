@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragment</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab_with_fragment">TabWithFragmentActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
