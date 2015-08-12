@@ -1,1 +1,1 @@
-include ':app', ':service', ':asynctask', ':fragment'
+include ':app', ':service', ':asynctask', ':fragment', ':alarmmanager'
