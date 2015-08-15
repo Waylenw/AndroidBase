@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 alarm.set(AlarmManager.RTC_WAKEUP, (System.currentTimeMillis() + 2000 * 5), pa);
                 Toast.makeText(getApplicationContext(),"消息列表将在5s后打开",Toast.LENGTH_LONG).show();
                 break;
-            case  R.id.btn_round://固定时间执行任务
+            case  R.id.btn_round://固定周期执行任务
 
                 PendingIntent sender=PendingIntent.getActivity(MainActivity.this, 2, intent, 0);
 
