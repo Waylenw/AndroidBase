@@ -10,6 +10,4 @@ Android基础编码案例<br/>
 
 #DrawableShape模块
 
-[Blog链接](http://waylenw.github.io/Android/android-handler-thread-usage/)
-
 
