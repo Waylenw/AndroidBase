@@ -19,27 +19,27 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * AsynTaskµÄ¶¨Òå
+     * AsynTaskçš„å®šä¹‰
      */
     public class AsyncTaskDemo extends AsyncTask<Integer, Integer, String> {
-        //¸Ã·½·¨ÔÚºóÌ¨ÔËĞĞ-------·µ»ØÀàĞÍÎªµÚÈı¸ö²ÎÊı  ÊäÈëÀàĞÍÎªµÚÒ»¸ö²ÎÊıÀàĞÍ   ¶ÔÓ¦ÉÏÃæ²ÎÊı
+        //è¯¥æ–¹æ³•åœ¨åå°è¿è¡Œ-------è¿”å›ç±»å‹ä¸ºç¬¬ä¸‰ä¸ªå‚æ•°  è¾“å…¥ç±»å‹ä¸ºç¬¬ä¸€ä¸ªå‚æ•°ç±»å‹   å¯¹åº”ä¸Šé¢å‚æ•°
         protected String doInBackground(Integer... params) {
             System.out.println("doInBackground"+Thread.currentThread().getId());
             return null;
         }
-        //ÉèÖÃÓÃ»§½çÃæ ÔÚÖ÷Ïß³ÌÖĞÖ´ĞĞ
+        //è®¾ç½®ç”¨æˆ·ç•Œé¢ åœ¨ä¸»çº¿ç¨‹ä¸­æ‰§è¡Œ
         protected void onPreExecute() {
             super.onPreExecute();
             System.out.println("onPreExecute"+Thread.currentThread().getId());
         }
 
-        //Ö÷Ïß³ÌÖ´ĞĞ onPreExecuteÖ®ºóÖ´ĞĞ   ÊäÈëÀàĞÍ µÚÈı¸ö²ÎÊı
+        //ä¸»çº¿ç¨‹æ‰§è¡Œ onPreExecuteä¹‹åæ‰§è¡Œ   è¾“å…¥ç±»å‹ ç¬¬ä¸‰ä¸ªå‚æ•°
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             System.out.println("onPostExecute"+Thread.currentThread().getId());
         }
 
-        //²ÎÊıÖĞ ¶ÔÓ¦ÎªµÚ¶ş¸ö²ÎÊı
+        //å‚æ•°ä¸­ å¯¹åº”ä¸ºç¬¬äºŒä¸ªå‚æ•°
         protected void onProgressUpdate(Integer... values) {
             // TODO Auto-generated method stub
             super.onProgressUpdate(values);

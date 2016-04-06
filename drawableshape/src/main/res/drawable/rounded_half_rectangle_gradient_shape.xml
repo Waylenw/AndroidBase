@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--半圆角渐变-->
+
+    <!--分別對應上面左圆角的半径，上面右圆角的半径，下面左圆角的半径，下面右圆角的半径-->
+    <corners
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+
+    <!--设置渐变-->
+    <gradient
+        android:angle="0"
+        android:endColor="#FFFFFF"
+        android:startColor="#D5D5D5" />
+
+    <!--即android:angle＝“0”时，是从左到右，按照开始颜色到结束颜色来渲染 的，
+    android:angle＝“90”是从上到下来渲染的，android:angle＝“180”是从右到左来渲染 的，
+    android:angle＝“360”和android:angle＝“0”是一样的，所以这里应该是这样的，
+    渲染时按照最原始的渲染色板（把控件内部看作一块可以绕中心旋转的板子）围绕控
+    件中心来旋转相应的度数，即android:angle里面的值就是所需要旋转的角度，
+    只是这个旋转角度必须是45的整数倍-->
+
+    <stroke
+        android:width="1dp"
+        android:color="#D5D5D5" />
+
+
+</shape>

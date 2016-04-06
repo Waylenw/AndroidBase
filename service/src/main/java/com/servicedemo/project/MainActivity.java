@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * Service的定义和使用
+ * Service鐨勫畾涔夊拰浣跨敤
  */
 public class MainActivity extends Activity {
     Intent intent = null;
@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onServiceDisconnected(ComponentName arg0) {
-                System.out.println("服务断开");
+                System.out.println("鏈嶅姟鏂紑");
 
 
             }
@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
             public void onServiceConnected(ComponentName arg0, IBinder ibinder) {
 
                 System.out.println((MyService.Mybind)ibinder);
-                System.out.println("服务连接");
+                System.out.println("鏈嶅姟杩炴帴");
 
             }
         };

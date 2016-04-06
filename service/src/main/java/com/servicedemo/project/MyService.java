@@ -8,10 +8,10 @@ import android.os.Binder;
 import android.os.IBinder;
 
 /**
- * 自定义Service
+ * 鑷畾涔塖ervice
  *
  *
- * 定义完后需在AndroidManifest.xml配置
+ * 瀹氫箟瀹屽悗闇�鍦ˋndroidManifest.xml閰嶇疆
  *
  */
 public class MyService extends Service {
@@ -19,7 +19,7 @@ public class MyService extends Service {
     Mybind mybind = new Mybind();
 
     /**
-     * 该BInder用于Activity共享数据
+     * 璇Inder鐢ㄤ簬Activity鍏变韩鏁版嵁
      */
     public class Mybind extends Binder {
 
@@ -34,7 +34,7 @@ public class MyService extends Service {
 
     @Override
     public void unbindService(ServiceConnection conn) {
-        System.out.println("取消绑定");
+        System.out.println("鍙栨秷缁戝畾");
         super.unbindService(conn);
     }
 
