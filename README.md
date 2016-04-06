@@ -8,4 +8,8 @@ Android基础编码案例<br/>
 
 [Blog链接](http://waylenw.github.io/Android/android-handler-thread-usage/)
 
+#DrawableShape模块
+
+[Blog链接](http://waylenw.github.io/Android/android-handler-thread-usage/)
+
 
