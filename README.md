@@ -6,6 +6,6 @@ Android基础编码案例<br/>
 
 #HandlerThread模块
 
-[Blog_Link(博客链接)](http://waylenw.github.io/Android/android-handler-thread-usage/)
+[Blog链接](http://waylenw.github.io/Android/android-handler-thread-usage/)
 
 
