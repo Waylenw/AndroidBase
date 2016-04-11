@@ -1,1 +1,1 @@
-include ':app', ':service', ':asynctask', ':fragment', ':alarmmanager', ':handlerthread', ':drawableshape', ':propertyanimation'
+include ':service', ':asynctask', ':fragment', ':alarmmanager', ':handlerthread', ':drawableshape', ':propertyanimation', ':animdemo', ':packgeinfo'

@@ -11,11 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alarmmanager" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/animdemo" />
             <option value="$PROJECT_DIR$/asynctask" />
             <option value="$PROJECT_DIR$/drawableshape" />
             <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/handlerthread" />
+            <option value="$PROJECT_DIR$/packgeinfo" />
             <option value="$PROJECT_DIR$/propertyanimation" />
             <option value="$PROJECT_DIR$/service" />
           </set>
