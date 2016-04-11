@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/drawableshape/drawableshape.iml" filepath="$PROJECT_DIR$/drawableshape/drawableshape.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlerthread/handlerthread.iml" filepath="$PROJECT_DIR$/handlerthread/handlerthread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentdemo/intentdemo.iml" filepath="$PROJECT_DIR$/intentdemo/intentdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/packgeinfo/packgeinfo.iml" filepath="$PROJECT_DIR$/packgeinfo/packgeinfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
