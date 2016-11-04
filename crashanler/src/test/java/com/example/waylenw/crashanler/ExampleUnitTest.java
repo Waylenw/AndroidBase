@@ -1,4 +1,4 @@
-package com.example.handlerthread;
+package com.example.waylenw.crashanler;
 
 import org.junit.Test;
 

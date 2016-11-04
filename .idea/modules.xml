@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidBase.iml" filepath="$PROJECT_DIR$/AndroidBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/alarmmanager/alarmmanager.iml" filepath="$PROJECT_DIR$/alarmmanager/alarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/animdemo/animdemo.iml" filepath="$PROJECT_DIR$/animdemo/animdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/asynctask/asynctask.iml" filepath="$PROJECT_DIR$/asynctask/asynctask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crashanler/crashanler.iml" filepath="$PROJECT_DIR$/crashanler/crashanler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crashhandler/crashhandler.iml" filepath="$PROJECT_DIR$/crashhandler/crashhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demobackground/demobackground.iml" filepath="$PROJECT_DIR$/demobackground/demobackground.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawableshape/drawableshape.iml" filepath="$PROJECT_DIR$/drawableshape/drawableshape.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlerthread/handlerthread.iml" filepath="$PROJECT_DIR$/handlerthread/handlerthread.iml" />

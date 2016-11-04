@@ -3,16 +3,37 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="E:\AndroudStudio\gradle\gradle-2.8" />
-        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/alarmmanager" />
             <option value="$PROJECT_DIR$/animdemo" />
             <option value="$PROJECT_DIR$/asynctask" />
+            <option value="$PROJECT_DIR$/crashanler" />
+            <option value="$PROJECT_DIR$/crashhandler" />
+            <option value="$PROJECT_DIR$/demobackground" />
+            <option value="$PROJECT_DIR$/drawableshape" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/handlerthread" />
+            <option value="$PROJECT_DIR$/intentdemo" />
+            <option value="$PROJECT_DIR$/packgeinfo" />
+            <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/service" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
+            <option value="$PROJECT_DIR$/alarmmanager" />
+            <option value="$PROJECT_DIR$/animdemo" />
+            <option value="$PROJECT_DIR$/asynctask" />
+            <option value="$PROJECT_DIR$/crashanler" />
+            <option value="$PROJECT_DIR$/crashhandler" />
+            <option value="$PROJECT_DIR$/demobackground" />
             <option value="$PROJECT_DIR$/drawableshape" />
             <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/handlerthread" />
